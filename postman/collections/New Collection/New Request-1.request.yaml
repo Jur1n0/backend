@@ -1,0 +1,8 @@
+$kind: http-request
+name: New Request
+url: http://localhost:8000/api/rpc/books/5/borrow
+method: POST
+body:
+  type: formdata
+  content: []
+order: 3991773247306085

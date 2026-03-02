@@ -1,0 +1,18 @@
+$kind: http-request
+name: New Request
+url: http://localhost:8000/api/rest/books
+method: POST
+body:
+  type: formdata
+  content:
+    - type: text
+      key: title
+      value: Trhlina
+      description: ""
+      disabled: false
+    - type: text
+      key: author
+      value: Jozef Karika
+      description: ""
+      disabled: false
+order: 4312830183589770
