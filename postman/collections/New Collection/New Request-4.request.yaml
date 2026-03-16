@@ -1,5 +1,0 @@
-$kind: http-request
-name: New Request
-url: http://localhost:8000/api/restapi/books
-method: GET
-order: 4351633926859927
